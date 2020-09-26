@@ -18,6 +18,8 @@ Just pase the absolute path of your file in the browser and it will render that 
 
 ```localhost:8080/Viewer/[abspath-to-file]```
 
+ssh -N -f -L localhost:8081:localhost:8081 <serverssh>
+
 ## Why?
 
 + No copying from server to local machine needed
@@ -33,6 +35,7 @@ I have seen people copy outputs to their local machine and visualize with meshla
 Open firefox or chrome and goto:
 
 ```localhost:8080/Viewer/home/amo/neural-network/prediction.voxnoc```
+
 
 | ```.voxnoc```   (voxelwise rgb color)         |  
 :-------------------------:|
