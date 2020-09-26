@@ -18,7 +18,7 @@ Just pase the absolute path of your file in the browser and it will render that 
 
 ```localhost:8080/Viewer/[abspath-to-file]```
 
-ssh -N -f -L localhost:8081:localhost:8081 <serverssh>
+```ssh -N -f -L localhost:8081:localhost:8081 <serverssh>```
 
 ## Why?
 
